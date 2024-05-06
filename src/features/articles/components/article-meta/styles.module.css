@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.root > *:first-child {
+  margin-right: 8px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+}
+
+.labels-white {
+  color: white;
+}
+
+.labels > *:first-child {
+  margin-bottom: 2px;
+}
+
+.username {
+  font-weight: 600;
+  color: inherit !important;
+}
+
+.date {
+  font-size: 12px;
+  opacity: 0.8;
+  color: inherit;
+}

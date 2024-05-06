@@ -1,0 +1,165 @@
+.root:global(.ant-table-wrapper) :global(.ant-table-tbody >tr >td >.ant-table-wrapper:only-child .ant-table) {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.root.wrap {
+  text-wrap: nowrap;
+}
+
+.root.wrap :global(.ant-table-tbody > .ant-table-row > .ant-table-cell > .ant-row.ant-row-stretch) {
+  min-width: fit-content;
+  width: auto !important;
+}
+
+.root :global(.ant-table),
+.root :global(.ant-table .ant-table-thead) th {
+  background: transparent;
+}
+
+.root :global(.ant-table-content) {
+  overflow: hidden !important;
+  /* transition: all 2s ease-in !important; */
+}
+
+.root :global(.ant-table-container:not(:has(.ant-table-content)) .ant-table-body) {
+  overflow: hidden !important;
+  /* transition: all 2s ease-in !important; */
+}
+
+.overflow_auto :global(.ant-table-container > .ant-table-content:hover) {
+  overflow-x: scroll !important;
+}
+
+.overflow_hidden :global(.ant-table-container > .ant-table-content:hover) {
+  overflow-x: hidden !important;
+}
+
+.root :global(.ant-table:has(.ant-table-container:not(:hover))) {
+  overflow-x: hidden;
+}
+
+.overflow_auto :global(.ant-table-container:not(:has(.ant-table-content)) .ant-table-body:hover) {
+  overflow: scroll !important;
+  margin-right: 0;
+}
+
+.overflow_hidden :global(.ant-table-container:not(:has(.ant-table-content)) .ant-table-body:hover) {
+  overflow-x: hidden !important;
+}
+
+/* save for later */
+/* .root :global(.ant-table:has(.ant-table-container:not(:hover))) {
+  overflow-x: hidden;
+} */
+
+.root :global(.ant-table-container:not(:hover):has(.ant-table-content):not(:has(.ant-table-placeholder))) {
+  margin-bottom: 0.313rem;
+}
+
+.root :global(.ant-table-container:not(:has(.ant-table-content)) .ant-table-body)
+{
+  margin-right: 0.5rem;
+  margin-bottom: 0.313rem;
+}
+
+.root :global(.ant-table-container:hover:not(:has(.ant-table-content)) .ant-table-body) {
+  margin-bottom: 0.313rem;
+}
+
+
+.root :global(.ant-table .ant-table-thead) > tr > th,
+.root :global(.ant-table .ant-table-tbody) > tr > td {
+  border-color: var(--divider);
+  padding: 0.75rem 0.625rem;
+}
+
+.root:global(.ant-table-wrapper .ant-table.ant-table-small .ant-table-cell) {
+  padding: var(--size-1);
+}
+
+.root:global(.ant-table-wrapper .ant-table.ant-table-small .ant-table-thead>tr>th) {
+  padding: var(--size-1);
+}
+
+.undivided :global(.ant-table .ant-table-thead) > tr > th,
+.undivided :global(.ant-table .ant-table-tbody) > tr > td {
+  border: none;
+}
+
+.root :global(.ant-table .ant-table-thead) > tr > th,
+.root :global(.ant-table .ant-table-tbody) > tr > td,
+.root
+  :global(
+    .ant-table .ant-table-tbody > tr > td > .ant-empty > .ant-empty-description
+  ) {
+  font-size: var(--text-sm);
+}
+
+.root :global(.ant-table .ant-table-thead) > tr > th,
+.root :global(.ant-table .ant-table-tbody) > tr > td {
+  font-weight: var(--bold);
+}
+
+.dark :global(.ant-table .ant-table-thead) > tr > th,
+.dark :global(.ant-table .ant-table-tbody) > tr > td {
+  color: var(--text-tertiary);
+}
+
+.root :global(.ant-table .ant-table-tbody) > tr > td,
+.root:global(.ant-table-wrapper .ant-table.ant-table-small) {
+  font-weight: var(--light);
+  font-size: var(--text-sm);
+}
+
+.root :global(.ant-table .ant-table-thead) > tr > th:before {
+  content: none !important;
+}
+
+.root
+  :global(.ant-table .ant-table-thead)
+  > tr
+  > :global(.ant-table-cell.ant-table-cell-fix-right) {
+  background: var(--background-white);
+}
+
+.root
+  :global(.ant-table .ant-table-thead)
+  > tr
+  > :global(.ant-table-cell.ant-table-row-expand-icon-cell) {
+  background: transparent;
+}
+
+.root:global(.ant-table-wrapper .ant-table-expanded-row-fixed) {
+  margin: unset;
+}
+
+.react_resizable_handle {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: 0;
+  z-index: 1;
+  width: 0.875rem;
+  height: 100%;
+  border: none;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  cursor: col-resize;
+}
+
+.root :global(.react-resizable > .ant-table-column-sorters) {
+  width: calc(100% - 1rem);
+}
+
+/* .root :global(.ant-table .ant-table-thead) > th > td.ant-table-cell {
+  border: none;
+} */
+
+/* .root :global(.ant-table .ant-table-tbody) > tr:nth-child(2n), 
+.root :global(.ant-table .ant-table-tbody) > tr:nth-child(2n) > :global(.ant-table-cell.ant-table-cell-fix-right), 
+.root :global(.ant-table .ant-table-tbody) > tr:nth-child(2n) > :global(.ant-table-cell.ant-table-cell-fix-left),
+.root :global(.ant-table .ant-table-thead .ant-table-cell.ant-table-cell-fix-right) {
+  background: unset;
+} */

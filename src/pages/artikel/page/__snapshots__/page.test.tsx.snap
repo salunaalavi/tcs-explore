@@ -1,0 +1,1410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles Page should not have unexpected code change 1`] = `
+<div>
+  <header
+    class="header content-wrapper"
+  >
+    <div
+      class="root"
+    >
+      <h1
+        class="ant-typography header-text title css-dev-only-do-not-override-yp8pcc"
+        style="width: 100%;"
+      >
+        Conduit
+      </h1>
+      <div
+        class="ant-typography header-text css-dev-only-do-not-override-yp8pcc"
+      >
+        Tempat untuk berbagi ilmu dan bertukar pikiran
+      </div>
+    </div>
+  </header>
+  <main
+    class="content-wrapper"
+  >
+    <div
+      class="root articles"
+    >
+      <div
+        class="ant-tabs ant-tabs-top css-dev-only-do-not-override-yp8pcc"
+      >
+        <div
+          class="ant-tabs-nav"
+          role="tablist"
+        >
+          <div
+            class="ant-tabs-nav-wrap"
+          >
+            <div
+              class="ant-tabs-nav-list"
+              style="transform: translate(0px, 0px);"
+            >
+              <div
+                class="ant-tabs-tab ant-tabs-tab-active"
+                data-node-key="global-feed"
+              >
+                <div
+                  aria-controls="rc-tabs-test-panel-global-feed"
+                  aria-selected="true"
+                  class="ant-tabs-tab-btn"
+                  id="rc-tabs-test-tab-global-feed"
+                  role="tab"
+                  tabindex="0"
+                >
+                  Feed Artikel Global
+                </div>
+              </div>
+              <div
+                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          >
+            <button
+              aria-controls="rc-tabs-test-more-popup"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-hidden="true"
+              class="ant-tabs-nav-more"
+              id="rc-tabs-test-more"
+              style="visibility: hidden; order: 1;"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                aria-label="ellipsis"
+                class="anticon anticon-ellipsis"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="ellipsis"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="ant-tabs-content-holder"
+        >
+          <div
+            class="ant-tabs-content ant-tabs-content-top"
+          >
+            <div
+              aria-hidden="false"
+              aria-labelledby="rc-tabs-test-tab-global-feed"
+              class="ant-tabs-tabpane ant-tabs-tabpane-active"
+              id="rc-tabs-test-panel-global-feed"
+              role="tabpanel"
+              tabindex="0"
+            >
+              <article
+                class="spacer-vertical root article article-first-shown"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.264Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    1173
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      If we quantify the alarm, we can get to the FTP pixel through the online SSL interface!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Omnis perspiciatis qui quia commodi sequi modi. Nostrum quam aut cupiditate est facere omnis possimus. Tenetur similique nemo illo soluta molestias facere quo. Ipsam totam facilis delectus nihil quidem soluta vel est omnis.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      rerum
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      maiores
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      omnis
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      quae
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.264Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    930
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      Try to transmit the HTTP card, maybe it will override the multi-byte hard drive!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Assumenda molestiae laboriosam enim ipsum quaerat enim officia vel quo. Earum odit rem natus totam atque cumque. Sint dolorem facere non.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      voluptate
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      rerum
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      ducimus
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      hic
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    270
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      quantifying the microchip wont do anything, we need to index the online SQL hard drive!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Minima soluta sed sed et optio explicabo at distinctio repudiandae. Magnam deleniti a ea. Non velit accusamus veniam qui. Necessitatibus velit ad aut officiis in officiis quasi. Sunt nulla dolores voluptatem esse magnam ut.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      possimus
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      voluptatem
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      cupiditate
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    168
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      Try to generate the TCP bus, maybe it will override the neural bandwidth!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Pariatur ut dolor repellendus dolores ut debitis. Est iusto neque dicta voluptatibus quia nulla consequatur. Omnis aut sed dolores qui laborum a amet.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      dicta
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      rerum
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      omnis
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      blanditiis
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    169
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      Try to bypass the SAS card, maybe it will transmit the solid state system!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Est iste totam accusamus dolorem est. Quis non sit impedit similique incidunt odio aspernatur aut rem. Architecto est eum.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      dolores
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      aut
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      consectetur
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      ullam
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    160
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      We need to calculate the bluetooth JBOD bus!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Ipsa nemo eos sequi nulla id accusamus nam ratione dolore. Omnis sint quisquam accusamus rem rem nihil. Non minus animi cum dolorem earum odit sequi. Rem non inventore sed dicta atque modi. Sed dolorem iste molestiae. Sed eum iste aliquid aliquid.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      nostrum
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      quia
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      quaerat
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      numquam
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    130
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      Use the auxiliary EXE monitor, then you can hack the haptic port!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Et id harum unde et ratione minima non. Suscipit ipsum rem. Sed asperiores quaerat dolorum autem nihil voluptatem et hic ut. Molestiae rerum autem. Dolores nam soluta officia pariatur debitis.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      necessitatibus
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      vitae
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      repellat
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      labore
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    145
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      You cant transmit the firewall without copying the 1080p SDD interface!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Est sed deserunt eligendi in velit saepe. Dolorem quis illo vero qui ut recusandae occaecati dolores quae. Voluptatem vero aliquam alias adipisci reiciendis odit nobis est. Vel laboriosam quia commodi rerum. Voluptatum et sed et nesciunt iure ipsum iste aut enim.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      possimus
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      maiores
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      facilis
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.263Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    137
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      You cant connect the interface without programming the virtual PNG protocol!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Vel facere dolorem sit hic non. Veniam nihil cumque sed et delectus. Maiores minus quisquam nostrum. Eius quasi nostrum. Molestiae recusandae ut. Suscipit natus aliquam eos sit aut.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      dicta
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      repellat
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      facilis
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      labore
+                    </span>
+                  </div>
+                </footer>
+              </article>
+              <article
+                class="spacer-vertical root article article-last-shown"
+              >
+                <header
+                  class="header"
+                >
+                  <div
+                    class="root"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-yp8pcc"
+                    >
+                      <img
+                        src="https://api.realworld.io/images/demo-avatar.png"
+                      />
+                    </span>
+                    <div
+                      class="labels"
+                    >
+                      <a
+                        class="ant-typography username css-dev-only-do-not-override-yp8pcc"
+                      >
+                        Anah Benešová
+                      </a>
+                      <span
+                        class="ant-typography date css-dev-only-do-not-override-yp8pcc"
+                        style="width: 100%;"
+                      >
+                        2022-12-09T13:46:24.262Z
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    data-testid="like-button"
+                    type="button"
+                  >
+                    <span
+                      aria-label="heart"
+                      class="anticon anticon-heart"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="heart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M923 283.6a260.04 260.04 0 00-56.9-82.8 264.4 264.4 0 00-84-55.5A265.34 265.34 0 00679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 00-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z"
+                        />
+                      </svg>
+                    </span>
+                    55
+                  </button>
+                </header>
+                <main>
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    <h2
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                      style="width: 100%;"
+                    >
+                      You cant hack the card without indexing the primary XSS capacitor!
+                    </h2>
+                    <div
+                      class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-yp8pcc"
+                    >
+                      Consequatur perferendis itaque dolor corporis vel voluptatem quaerat. Ex numquam sed. Reiciendis eveniet ducimus nobis et necessitatibus qui. Sit veritatis temporibus nostrum eius laborum voluptatum deleniti optio. Aperiam vel laborum eos odit ut veritatis. Eos tempora enim sed.
+                    </div>
+                  </a>
+                </main>
+                <footer
+                  class="footer"
+                >
+                  <a
+                    class="ant-typography css-dev-only-do-not-override-yp8pcc"
+                  >
+                    Selengkapnya...
+                  </a>
+                  <div
+                    class="spacer-horizontal tags"
+                  >
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      aut
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      unde
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      voluptate
+                    </span>
+                    <span
+                      class="ant-tag root css-dev-only-do-not-override-yp8pcc"
+                    >
+                      commodi
+                    </span>
+                  </div>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-active css-dev-only-do-not-override-yp8pcc"
+      >
+        <div
+          class="ant-skeleton-content"
+        >
+          <h3
+            class="ant-skeleton-title"
+            style="width: 38%;"
+          />
+          <ul
+            class="ant-skeleton-paragraph"
+          >
+            <li
+              style="width: 61%;"
+            />
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    class="content-wrapper"
+  >
+    <div
+      class="root"
+    >
+      <ul
+        class="ant-pagination css-dev-only-do-not-override-yp8pcc"
+      >
+        <li
+          aria-disabled="true"
+          class="ant-pagination-prev ant-pagination-disabled"
+          title="Previous Page"
+        >
+          <button
+            class="ant-pagination-item-link"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-label="left"
+              class="anticon anticon-left"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="left"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          tabindex="0"
+          title="1"
+        >
+          <a
+            href="/artikel/page/1"
+          >
+            1
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-2"
+          tabindex="0"
+          title="2"
+        >
+          <a
+            href="/artikel/page/2"
+          >
+            2
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-3"
+          tabindex="0"
+          title="3"
+        >
+          <a
+            href="/artikel/page/3"
+          >
+            3
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-4"
+          tabindex="0"
+          title="4"
+        >
+          <a
+            href="/artikel/page/4"
+          >
+            4
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+          tabindex="0"
+          title="5"
+        >
+          <a
+            href="/artikel/page/5"
+          >
+            5
+          </a>
+        </li>
+        <li
+          class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+          tabindex="0"
+          title="Next 5 Pages"
+        >
+          <a
+            class="ant-pagination-item-link"
+          >
+            <div
+              class="ant-pagination-item-container"
+            >
+              <span
+                aria-label="double-right"
+                class="anticon anticon-double-right ant-pagination-item-link-icon"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="double-right"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 00188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 00492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="ant-pagination-item-ellipsis"
+              >
+                •••
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-20"
+          tabindex="0"
+          title="20"
+        >
+          <a
+            href="/artikel/page/20"
+          >
+            20
+          </a>
+        </li>
+        <li
+          aria-disabled="false"
+          class="ant-pagination-next"
+          tabindex="0"
+          title="Next Page"
+        >
+          <button
+            class="ant-pagination-item-link"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-label="right"
+              class="anticon anticon-right"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                />
+              </svg>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

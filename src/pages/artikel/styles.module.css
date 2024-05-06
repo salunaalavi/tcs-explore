@@ -1,0 +1,54 @@
+.content-wrapper {
+  width: 100%;
+  padding: 24px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .content-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.header {
+  background: black;
+  padding: 48px 0px;
+}
+
+.header-text {
+  color: white !important;
+}
+
+.header > div > *:last-child {
+  margin-top: 40px;
+}
+
+.header-button {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .header-button {
+    width: initial;
+  }
+}
+
+.header-meta > *:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .header-meta {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-meta > *:not(:last-child) {
+    margin-right: 18px;
+    margin-bottom: 0px;
+  }
+}
+
+.footer {
+  border-top: 1px solid #f2f2f2;
+}

@@ -1,0 +1,10 @@
+.root {
+  padding-top: 64px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form > *:not(:last-child) {
+  margin-bottom: 32px;
+  text-align: center;
+}

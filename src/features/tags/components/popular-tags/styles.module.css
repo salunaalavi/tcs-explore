@@ -1,0 +1,56 @@
+.title {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.tags {
+  height: 34px;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 300px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE, Edge and Firefox */
+  scrollbar-width: none;
+  box-shadow: inset -2px 0 9px -7px rgba(0, 0, 0, 0.7);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tags::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .tags {
+    width: 520px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tags {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tags {
+    display: flex;
+    white-space: normal;
+    flex-wrap: wrap;
+    overflow-x: visible;
+    width: 400px;
+    margin-bottom: -10px;
+    box-shadow: none;
+  }
+
+  .tags > *:not(:last-child) {
+    margin-right: 12px;
+  }
+
+  .tags > * {
+    margin-bottom: 10px;
+  }
+}
+
+.tag {
+  padding: 6px 12px;
+}

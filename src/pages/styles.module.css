@@ -1,0 +1,5 @@
+.kanban__column--list {
+  width: 48px;
+  height: 96px;
+  flex-shrink: 0;
+}
