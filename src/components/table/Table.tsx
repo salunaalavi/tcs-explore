@@ -37,13 +37,11 @@ type TTable<T> = TableProps<T> & {
   divided?: boolean;
   theme?: "dark";
   wrap?: boolean;
-  tableRef?: React.Ref<HTMLDivElement>;
 };
 
 export function Table<const T extends object>(props: TTable<T>) {
   return (
     <_Table
-      ref={props?.tableRef}
       bordered={false}
       {...((!props?.parent?.expandable ||
         props?.parent?.expandable === undefined) && {
@@ -141,9 +139,9 @@ function DraggableRow<const T>(
   }: TDraggableRowTable<NewType<T> & { key: string }>,
 ) {
   const [data, setData] = useState<Writeable<typeof dataSource>>([]);
-  const { setNodeRef } = useDroppable({
-    id: localStorageKey,
-  });
+  // const { setNodeRef } = useDroppable({
+  //   id: localStorageKey,
+  // });
 
   const dataSourceItems = dataSource?.map((id) => {
     return allData.find(({ id: itemId }) => itemId === id);
@@ -183,8 +181,8 @@ function DraggableRow<const T>(
         .slice()
         .sort(
           (a, b) =>
-            parsedStorageRows.map(({ file_id }) => file_id).indexOf(a.file_id) -
-            parsedStorageRows.map(({ file_id }) => file_id).indexOf(b.file_id),
+            parsedStorageRows.map((item) => item?.file_id).indexOf(a.file_id) -
+            parsedStorageRows.map((item) => item?.file_id).indexOf(b.file_id),
         );
 
       localStorage.setItem(localStorageKey, JSON.stringify(sortedRows));
@@ -209,24 +207,24 @@ function DraggableRow<const T>(
     //   modifiers={[restrictToWindowEdges]}
     //   onDragEnd={onDragEnd}
     // >
-      <SortableContext
-        // rowKey array
-        id={localStorageKey}
-        items={data!}
-        strategy={verticalListSortingStrategy}
-      >
-        <TableRender
-          {...props}
-          tableRef={setNodeRef}
-          components={{
-            body: {
-              row: DragRow,
-            },
-          }}
-          rowKey="id"
-          dataSource={dataSourceItems as typeof dataSource}
-        />
-      </SortableContext>
+    <SortableContext
+      // rowKey array
+      id={localStorageKey}
+      items={data!}
+      strategy={verticalListSortingStrategy}
+    >
+      <TableRender
+        {...props}
+        // tableRef={setNodeRef}
+        components={{
+          body: {
+            row: DragRow,
+          },
+        }}
+        rowKey="id"
+        dataSource={dataSourceItems as typeof dataSource}
+      />
+    </SortableContext>
     // </DndContext>
   );
 }

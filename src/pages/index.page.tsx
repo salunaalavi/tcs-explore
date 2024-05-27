@@ -17,6 +17,7 @@ import {
   DragOverlay,
   rectIntersection,
   useDroppable,
+  useDraggable,
 } from "@dnd-kit/core";
 import { restrictToWindowEdges } from "@dnd-kit/modifiers";
 import { CSS } from "@dnd-kit/utilities";
@@ -76,6 +77,8 @@ const table3 = [
   },
 ];
 
+const table4 = [];
+
 const columns = [
   {
     title: "name",
@@ -92,64 +95,74 @@ export function Item(props: {
 }) {
   const { id, data, items } = props;
 
+  // console.log("data", id);
+
   for (const container of Object.keys(items || {})) {
-    if (container === "container3" && items?.[container].includes(id || "")) {
+    console.log(
+      "item & container",
+      container,
+      items?.[container].includes(id || ""),
+    );
+    if (
+      (container === "container1" || container === "container2") &&
+      items?.[container].includes(id || "")
+    ) {
       return (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="48"
-          height="96"
-          viewBox="0 0 48 96"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_1845_26893)">
-            <rect width="48" height="96" rx="12" fill="white" />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M0 12C0 5.37258 5.37258 0 12 0H36C42.6274 0 48 5.37258 48 12V84C48 90.6274 42.6274 96 36 96H12C5.37258 96 0 90.6274 0 84V12ZM29 19.5L42 7.49999V17.5L29 29.5V19.5ZM42 37.5L29 49.5V59.5L42 47.5V37.5ZM29 79.5L42 67.5V77.5L29 89.5V79.5ZM6 7.49999L19 19.5V29.5L6 17.5V7.49999ZM19 49.5L6 37.5V47.5L19 59.5V49.5ZM6 67.5L19 79.5V89.5L6 77.5V67.5Z"
-              fill="#242424"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_1845_26893">
-              <rect width="48" height="96" rx="12" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+        <>
+          <td className="ant-table-cell">drag</td>
+          <td className="ant-table-cell">{data?.id || ""}</td>
+          <td className="ant-table-cell">{data?.name || ""}</td>
+        </>
       );
     }
   }
 
   return (
-    <>
-      <td className="ant-table-cell">drag</td>
-      <td className="ant-table-cell">{data?.id || ""}</td>
-      <td className="ant-table-cell">{data?.name || ""}</td>
-    </>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="48"
+      height="96"
+      viewBox="0 0 48 96"
+      fill="none"
+    >
+      <g clipPath="url(#clip0_1845_26893)">
+        <rect width="48" height="96" rx="12" fill="white" />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M0 12C0 5.37258 5.37258 0 12 0H36C42.6274 0 48 5.37258 48 12V84C48 90.6274 42.6274 96 36 96H12C5.37258 96 0 90.6274 0 84V12ZM29 19.5L42 7.49999V17.5L29 29.5V19.5ZM42 37.5L29 49.5V59.5L42 47.5V37.5ZM29 79.5L42 67.5V77.5L29 89.5V79.5ZM6 7.49999L19 19.5V29.5L6 17.5V7.49999ZM19 49.5L6 37.5V47.5L19 59.5V49.5ZM6 67.5L19 79.5V89.5L6 77.5V67.5Z"
+          fill="#242424"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_1845_26893">
+          <rect width="48" height="96" rx="12" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
   );
 }
 
 export const FieldItem = (props) => {
-  const { id, item, dragOverlay } = props;
   const {
-    setNodeRef,
-    listeners,
-    isDragging,
-    transform,
-    transition,
-    attributes,
-  } = useSortable({
-    id: id,
-    disabled: props.disabled,
-  });
+    setDraggableNodeRef,
+    dragProperties,
+    id,
+    disabled,
+    item,
+    dragOverlay,
+    items,
+  } = props;
+
+  const { listeners, isDragging, transform, transition, attributes } =
+    dragProperties;
 
   const style = {
     transform: CSS.Translate.toString(transform),
     transition,
     borderRadius: 13,
-    width: "100%",
-    height: "100%",
+    width: "48px",
+    height: "96px",
     opacity: isDragging ? 0.5 : 1,
     boxShadow:
       isDragging || dragOverlay
@@ -170,7 +183,7 @@ export const FieldItem = (props) => {
   };
   return (
     <div
-      ref={props.disabled ? null : setNodeRef}
+      ref={setDraggableNodeRef}
       className="card"
       style={style}
       {...attributes}
@@ -183,11 +196,11 @@ export const FieldItem = (props) => {
         viewBox="0 0 48 96"
         fill="none"
       >
-        <g clip-path="url(#clip0_1845_26893)">
+        <g clipPath="url(#clip0_1845_26893)">
           <rect width="48" height="96" rx="12" fill="white" />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M0 12C0 5.37258 5.37258 0 12 0H36C42.6274 0 48 5.37258 48 12V84C48 90.6274 42.6274 96 36 96H12C5.37258 96 0 90.6274 0 84V12ZM29 19.5L42 7.49999V17.5L29 29.5V19.5ZM42 37.5L29 49.5V59.5L42 47.5V37.5ZM29 79.5L42 67.5V77.5L29 89.5V79.5ZM6 7.49999L19 19.5V29.5L6 17.5V7.49999ZM19 49.5L6 37.5V47.5L19 59.5V49.5ZM6 67.5L19 79.5V89.5L6 77.5V67.5Z"
             fill="#242424"
           />
@@ -205,26 +218,73 @@ export const FieldItem = (props) => {
 export const SectionItem = (props) => {
   const { id, items, name, data, isSortingContainer, dragOverlay } = props;
   const disabled = items.length > 1;
-  const { setNodeRef } = useDroppable({
-    id,
-    disabled,
+
+  console.log(id, items?.[0] ?? id);
+  const {
+    setDraggableNodeRef,
+    setDroppableNodeRef,
+    listeners,
+    isDragging,
+    transform,
+    transition,
+    attributes,
+  } = useSortable({
+    id: items?.[0] ?? id,
   });
+
+  console.log(`items ${id}`, items);
 
   return (
     <div
-      ref={setNodeRef}
-      className="kanban-column"
+      ref={items.length > 0 ? null : setDroppableNodeRef}
+      className={styles["kanban-column"]}
+      style={{
+        boxShadow: dragOverlay
+          ? "0 0 0 calc(1px / 1) rgba(63, 63, 68, 0.05), -1px 0 15px 0 rgba(34, 33, 81, 0.01), 0px 15px 15px 0 rgba(34, 33, 81, 0.25)"
+          : "",
+        border: dragOverlay ? "6px solid #0093D680" : "1px solid #dcdcdc", // 1px solid rgba(64, 150, 255, 1)
+      }}
     >
       <div className={styles["kanban__column--list"]}>
-        <SortableContext
+        {!(items?.length > 0) && (
+          <div ref={setDraggableNodeRef} {...listeners} {...attributes}></div>
+        )}
+        {items.map((item, _index) => {
+          return (
+            <FieldItem
+              setDraggableNodeRef={setDraggableNodeRef}
+              dragProperties={{
+                listeners,
+                isDragging,
+                transform,
+                transition,
+                attributes,
+              }}
+              id={item}
+              key={item}
+              item={data.filter((d) => d.id === item)[0]}
+              items={items}
+              disabled={disabled}
+            />
+          );
+        })}
+        {/* <SortableContext
           id={id}
           items={items}
-          disabled={disabled}
+          // disabled={disabled}
           strategy={verticalListSortingStrategy} // verticalListSortingStrategy rectSortingStrategy
         >
           {items.map((item, _index) => {
             return (
               <FieldItem
+                setDraggableNodeRef={setDraggableNodeRef}
+                dragProperties={{
+                  listeners,
+                  isDragging,
+                  transform,
+                  transition,
+                  attributes,
+                }}
                 id={item}
                 key={item}
                 item={data.filter((d) => d.id === item)[0]}
@@ -232,7 +292,7 @@ export const SectionItem = (props) => {
               />
             );
           })}
-        </SortableContext>
+        </SortableContext> */}
       </div>
     </div>
   );
@@ -243,6 +303,7 @@ const Home = () => {
     container1: table1?.map(({ id }) => id),
     container2: table2?.map(({ id }) => id),
     container3: table3?.map(({ id }) => id),
+    container4: table4?.map(({ id }) => id),
   });
 
   const [activeId, setActiveId] = useState();
@@ -330,6 +391,8 @@ const Home = () => {
   function handleDragEnd(event) {
     const { active, over } = event;
 
+    console.log("active", active);
+
     if (!over) return;
     const { id } = active;
     const { id: overId } = over;
@@ -380,7 +443,7 @@ const Home = () => {
       Home
       <DndContext
         sensors={sensors}
-        // modifiers={[restrictToWindowEdges]}
+        modifiers={[restrictToWindowEdges]}
         onDragStart={handleDragStart}
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}
@@ -390,7 +453,7 @@ const Home = () => {
           <Col span={12}>
             <Table.DraggableRow
               localStorageKey="container1"
-              allData={[...table1, ...table2, ...table3]}
+              allData={[...table1, ...table2, ...table3, ...table4]}
               dataSource={items.container1}
               columns={columns}
             />
@@ -398,24 +461,42 @@ const Home = () => {
           <Col span={12}>
             <Table.DraggableRow
               localStorageKey="container2"
-              allData={[...table1, ...table2, ...table3]}
+              allData={[...table1, ...table2, ...table3, ...table4]}
               dataSource={items.container2}
               columns={columns}
             />
           </Col>
+          <div
+            style={{
+              width: "100%",
+              height: "10rem",
+            }}
+          ></div>
           <Col span={12}>
             <SectionItem
               id="container3"
               key="container3"
               items={items.container3}
               name="Ban"
-              data={[...table1, ...table2, ...table3]}
+              data={[...table1, ...table2, ...table3, ...table4]}
+              isSortingContainer={false}
+            />
+          </Col>
+          <Col span={12}>
+            <SectionItem
+              id="container4"
+              key="container4"
+              items={items.container4}
+              name="Ban"
+              data={[...table1, ...table2, ...table3, ...table4]}
               isSortingContainer={false}
             />
           </Col>
         </Row>
         <DragOverlay>
-          {activeId ? <Item data={{ id: activeId }} id={activeId} items={items} /> : null}
+          {activeId ? (
+            <Item data={{ id: activeId }} id={activeId} items={items} />
+          ) : null}
         </DragOverlay>
       </DndContext>
     </div>
